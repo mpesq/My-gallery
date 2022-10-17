@@ -111,8 +111,6 @@ body {
         line-height: 17px;
         color: #B9BDCF;
         padding: 1rem;
-        position: fixed;
-        bottom:0;
     }
 }
 
@@ -135,12 +133,16 @@ body {
         }
         
         .grid-gallery {
-            width: 330px;
+            width: 350px;
             grid-auto-rows: 109.32px;
             grid-auto-columns: 109.32px;
             gap: 0.5rem;        
             
         }
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
     }
         
 }
